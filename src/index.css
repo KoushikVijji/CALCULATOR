@@ -19,6 +19,8 @@ body{
   font-size: 30px;
   text-align: right;
   color: white;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .container .button-container{
   background-color: #060B26;
@@ -43,12 +45,10 @@ button {
   border: none;
   background: none;
   color: white;
+  cursor:pointer;
 }
 button:hover{
   opacity:1;
   background-color:#fff;
   color:darkblue;
-}
-button:focus{
-  border:1px solid white;
 }
