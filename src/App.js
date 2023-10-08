@@ -42,7 +42,7 @@ const App= () => {
               <button name="=" onClick={calculate}  id="result">=</button>
             </div>
             <div className="column-special">
-              <button onClick={clear} id="clear">&larr;</button>
+              <button onClick={clear} id="clear">DEL</button>
               <button name="/" onClick={handleClick}>&divide;</button>
               <button name="*" onClick={handleClick}>&times;</button>
               <button name="-" onClick={handleClick}>&minus;</button>
